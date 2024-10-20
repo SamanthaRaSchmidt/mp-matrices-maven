@@ -3,7 +3,7 @@ package edu.grinnell.csc207.util;
 /**
  * An implementation of two-dimensional matrices.
  *
- * @author Your Name Here
+ * @author Sam Schmidt
  * @author Samuel A. Rebelsky
  *
  * @param <T>

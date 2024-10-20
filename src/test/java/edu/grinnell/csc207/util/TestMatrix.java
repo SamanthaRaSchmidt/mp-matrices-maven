@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 
-/**e
+/**
  * A variety of tests for the Matrix class.
  *
  * @author Samuel A. Rebelsky
