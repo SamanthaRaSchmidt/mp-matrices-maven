@@ -19,6 +19,8 @@ Citations:
 
 The Questions and Answers section of the project page was used to help me with my initial implementation and ideas for where to start. Found at: https://rebelsky.cs.grinnell.edu/Courses/CSC207/2024Fa/mps/mp06.html.
 
+While I did not directly consult, due to the MP on "abstract games" I had access to Jenifer Silva's implementations of matrices and understoof more of how they worked based on how we used them in our game. While I tried to avoid looking at her code to not accidentally copy pieces or overuse code that was not mine, I did end up having to look at it a few times for debugging our game.
+
 
 ---
 
