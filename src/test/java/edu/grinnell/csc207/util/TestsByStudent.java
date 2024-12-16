@@ -56,13 +56,13 @@ public class TestsByStudent {
     Integer i1 = Integer.valueOf(1);
     Integer i2 = Integer.valueOf(2);
     MatrixV0<Integer> newTester = new MatrixV0<Integer>(2, 2);
-    tester.insertRow(0);
-    tester.insertRow(1, new Integer[] {i1,i2});
-    tester.insertRow(2);
+    newTester.insertRow(0);
+    newTester.insertRow(1, new Integer[] {i1,i2});
+    newTester.insertRow(2);
     assertMatrixEquals(new Integer[][] {{0,0},
                                         {i1,i2},
                                         {0,0}}, newTester,"Rows updated");
-    tester.deleteRow(1);
+    newTester.deleteRow(1);
     assertMatrixEquals(new Integer[][] {{0,0},
                                         {0,0}}, newTester,"Rows deleted");
   } //setAndDeleteRows()
